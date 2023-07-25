@@ -1,0 +1,20 @@
+apps:
+  name: 'GolangTest'
+  version: '1.0.0'
+  env: 'dev'
+server:
+  port: 9090
+database:
+  url: "localhost"
+  port: "5432"
+  databaseName: "test"
+  username: "root"
+  password: ""
+  schema: "public."
+  connectionTimeout: "20s"
+  maxIdleConnection: 5
+  maxOpenConnection: 10
+  debugMode: true
+jsonsource : 
+  users: "./resources/datasource/users.json"
+  belanja: "./resources/datasource/belanja.json"
